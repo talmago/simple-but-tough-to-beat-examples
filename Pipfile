@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+isort = "*"
+flake8 = "*"
+pytest = "*"
+tox = "*"
+yapf = "*"
+
+[packages]
+fasttext = "*"
+sklearn = "*"
+textacy = "*"
+contractions = "*"
+tensorflow = "*"
+
+[requires]
+python_version = "3.6"
